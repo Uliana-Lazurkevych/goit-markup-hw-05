@@ -649,12 +649,20 @@ header {
   border-radius: 4px;
   font-family: inherit;
   font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em; 
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: var(--white);
   outline: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 264px;
   height: 40px;
   flex-shrink: 0;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input::placeholder {
+	color: var(--white);
 }
 
 .form-input::placeholder {
