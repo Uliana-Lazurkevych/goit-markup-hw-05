@@ -602,7 +602,7 @@ header {
 }
 
 .social-link:hover,
-:focus {
+.social-link:focus {
   background-color: var(--green);
   background-color: var(--green);
 }
